@@ -1,0 +1,6 @@
+const para = document.getElementById("para")
+const button=document.querySelector("button")
+button.addEventListener("mouseover", (e)=>{para.style="color:green;"; para.textContent="This para is green"})
+button.addEventListener("click", (e)=>{para.style="color:blue;"; para.textContent="This para is blue"})
+button.addEventListener("dblclick", (e)=>{para.style="color:red;"; para.textContent="This para is red"})
+button.addEventListener("mouseout", (e)=>{para.style="color:black;"; para.textContent="This para is black"})
